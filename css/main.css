@@ -22,11 +22,13 @@ html {
 }
 
 .btn:not(.btn-ghost):hover {
-  background-color: #e88681;
+  background-color: #fff;
+  color: #8d483b;
 }
 
 .btn-ghost:hover {
-  background-color: rgba(180, 220, 255, .5);
+  background-color: #000;
+  color: #fff;
 }
 
 .masthead {
@@ -59,8 +61,11 @@ html {
   text-decoration: none;
 }
 
-.masthead a:hover {
-  background-color: rgba(180, 220, 255, .3);
+.masthead a:hover,
+.masthead a:focus {
+  background-color: rgba(180, 220, 255, 1);
+  color: #000;
+  outline-color: #fff;
 }
 
 .techniques {
